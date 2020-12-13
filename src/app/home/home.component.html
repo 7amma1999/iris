@@ -1,0 +1,28 @@
+<app-header></app-header>
+<div class="bigContainer">
+  <div class="container">
+    <div class="row">
+      <div class="leftNavigation">
+        <h4>user profile</h4>
+        <div>
+          <div
+            *ngFor="let item of this.pages"
+            class="item"
+            [routerLink]="'/' + item.link"
+            routerLinkActive="is-active "
+          >
+            <object
+              type="image/svg+xml"
+              [data]="this.photoURL(item.iconUrl)"
+              class="icon"
+            ></object>
+            <div class="label">
+              {{ item.title }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content"><router-outlet></router-outlet></div>
+    </div>
+  </div>
+</div>

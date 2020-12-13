@@ -1,0 +1,63 @@
+.containerBox {
+  height: 34px;
+  opacity: 1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.label {
+  cursor: pointer;
+  text-align: left;
+  font: 400 18px Roboto;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  &:hover {
+    background: #119da4 0% 0% no-repeat padding-box;
+    color: #ffffff;
+  }
+  &:active {
+    background: #119da4 0% 0% no-repeat padding-box;
+    color: #ffffff;
+  }
+  &:focus {
+    background: #119da4 0% 0% no-repeat padding-box;
+    color: #ffffff;
+  }
+}
+.label:target {
+  background: #119da4 0% 0% no-repeat padding-box;
+  color: #ffffff;
+}
+.label:nth-child(1) {
+  width: 90px;
+  height: 38px;
+  padding-right: 15px;
+  border-radius: 0px 14px 14px 0px;
+
+  border: 1px solid #e5e5e5;
+}
+.label:nth-child(2) {
+  vertical-align: middle;
+  align-content: center;
+  width: 90px;
+  height: 38px;
+  padding-left: 10px;
+  border-radius: 0px;
+  border: 1px solid #e5e5e5;
+}
+.label:nth-child(3) {
+  vertical-align: middle;
+  align-content: center;
+  padding-left: 15px;
+  width: 90px;
+  height: 38px;
+  border-radius: 14px 0px 0px 14px;
+
+  border: 1px solid #e5e5e5;
+}
+.text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

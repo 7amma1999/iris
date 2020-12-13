@@ -1,0 +1,115 @@
+.containerBox {
+  position: relative;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 18px;
+  padding-right: 23px;
+  width: calc(100% * 1);
+  height: 100%;
+}
+
+p {
+  text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400px;
+  letter-spacing: 0px;
+  color: #13505b;
+  opacity: 1;
+}
+.greenChart {
+  background: #317b22 0% 0% no-repeat padding-box;
+  border-radius: 4px 0px 0px 4px;
+  opacity: 1;
+  height: 5em;
+  padding-left: 0.8em;
+  align-items: center;
+  width: 94px;
+  align-content: center;
+}
+.static {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.blueChart {
+  padding-left: 10px;
+  width: 28px;
+  height: 5em;
+  background: #13505b 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.yellowChart {
+  width: 21px;
+  height: 5em;
+  background: #f0aa08 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.redChart {
+  width: 16px;
+  height: 5em;
+  background: #d5272a 0% 0% no-repeat padding-box;
+  border-radius: 0px 4px 4px 0px;
+  opacity: 1;
+}
+.greenCircle {
+  position: relative;
+  margin-top: 5px;
+  width: 0.8em;
+  height: 0.8em;
+  background: #317b22 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 100%;
+}
+.yellowCircle {
+  position: relative;
+  margin-top: 5px;
+  width: 0.8em;
+  height: 0.8em;
+  background: #f0aa08 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 100%;
+}
+
+.blueCircle {
+  position: relative;
+  margin-top: 5px;
+  width: 0.8em;
+  height: 0.8em;
+  background: #13505b 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 100%;
+}
+.redCircle {
+  position: relative;
+  margin-top: 5px;
+  width: 0.8em;
+  height: 0.8em;
+  background: #d5272a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 100%;
+}
+
+.firstRow {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.label {
+  text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #666666;
+  opacity: 1;
+}
